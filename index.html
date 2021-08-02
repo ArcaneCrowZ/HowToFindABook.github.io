@@ -1,10 +1,95 @@
 <html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap');
+
+        body {
+            background-color: black;
+            color: rgb(6, 204, 6);
+            font-family: monospace;
+            text-align: center;
+            margin: 5% 15%;
+            font-size: 30px;
+            border-spacing: 1000px 0px;
+            font-family: 'STIX Two Text', serif;
+        }
+
+        #preambula {
+            background-color: darkblue;
+            color: white;
+        }   
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .img-common {
+            width: 80%;
+        }
+    </style>
+
     <head> 
         <title>Пока лежит TheTrove.</title> 
     </head> 
+
     <body>
-        HTML web page contents 
-        
-        <img src="images/2alter.png" alt="Girl in a jacket" width="500" height="600">
+        <div id="preambula">
+            <h1>Как найти нужную мне книгу по НРИ на английском?</h1>
+            <p>Этот мини-гайд написан в условиях лежащего TheTrove. Впрочем, если он поднялся - этот способ никуда не исчезнет, можете продолжать пользоваться им.</p>
+        </div>
+
+        <div id="1-slide"> 
+            <p>1) Идем на реддит TheTrove: <a href="https://www.reddit.com/r/TheTrove/">https://www.reddit.com/r/TheTrove/</a></p>
+        </div>
+
+        <div id="2-slide">
+            <p>2) Находим вкладку с альтернативами.</p>
+            <img class="img-common" src="images/1reddit.png" alt="reddit screen">
+        </div>
+
+        <div id="3-slide">
+            <p>3) Находим лист альтернатив.</p>
+            <img class="img-common" src="images/2alter.png" alt="reddit alts">
+        </div>
+
+        <div>
+            <p>4) Тут есть два места, в которых можно искать. Они указаны ссылками. &lt;dot&gt; нужно заменить на точку, чтобы ссылка заработала.</p>
+            <ul>
+                <li>Верхний архив - 2018 года и с тех пор не обновлялся, но в нем легко искать.</li>
+                <li>Нижний архив - обновляется постоянно, но требует понимания, как его использовать. С этого момента, я пишу о нем.</li>
+            </ul>
+            <img class="img-common" src="images/3list.png" alt="reddit list">
+        </div>
+
+        <div>
+            <p>5) После перехода по ссылке, вы увидите четыре pdf-файла.</p>
+            <ol style="list-style-position: inside;">
+                <li>De Annex - обнововление треда. Вам сюда не нужно.</li>
+                <li>De Archive - архив с множество личных коллекций. Начните поиск отсюда.</li>
+                <li>De Curated Archive - курируемый архив. Убирают поломанные ссылки, заменяют на новые. Но он меньше.</li>
+                <li>De FAQ - часто задаваемые вопросы.</li>
+            </ol>
+            <p>Ищите то, что вам нужно, при помощи поиска текста по странице (Ctrl+F).</p>
+            <img class="img-common" src="images/4arhive.png" alt="reddit thread">
+        </div>
+
+        <div>
+            <P>6) Если вы нашли то, что вам нужно, скорее всего ссылка будет необычного вида. Допустим, мы хотим покопаться в архиве по старому миру тьмы:</P>
+            <img src="images/5wod.png" alt="wod screen">
+            <p>Нам нужно перевести ссылки из зашифрованного формата в обычный. У ссылки две части - левая и правая, разделенная пробелом.</p>
+            <p>Первая - это ресурс, на котором лежит архив. В данном случае, это m3g4. Чтобы понять, что это за ресурс - 
+                сверяемся с этой табличкой и пытаемся угадать:</p>
+            <img src="images/6table.png" alt="content table" width="50%">   
+            <p>m3g4 похоже на mega(самый первый ресурс), следовательно - это наш сайт. Первая часть ссылки - mega.nz</p>
+            <p>Далее мы просто прибавляем вторую часть ссылки -</p> 
+            <p>mega.nz/#F!YXJAiIbI!1calHKSGm4OOZioAaHlaYw!4fJiwJ6Y - итоговая ссылка, которая приведет нас в архив.</p>
+        </div>
+
+        <div>
+            <p>7) Мы оказываемся в архиве, в файлообменнике. Отсюда, ищем то, что нам нужно руками. Если не работает - смотри за картинкой.</p>
+            <img class="img-common" src="images/7arhive.png" alt="arhive png">
+            <p>Для большинства файлообменников необходим VPN. Советую вот этот: <a href="https://adguard-vpn.com/en/welcome.html">ссылка, тыкни сюда</a> 
+                + Google Chrome.</p>
+            <p>Бесплатно дают 3 гигабайта в месяц, больше не нужно. Необходима установка расширения в браузер.</p>
+        </div>
     </body> 
 </html>
